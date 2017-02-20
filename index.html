@@ -12,8 +12,18 @@
 		<img src="logo.png" alt="AnalogSea">
 	</header>
 	<main>
-		<form action="/signup/" method="POST">
-			
+		<form class="signup-form" action="/signup/" method="POST">
+			<h1>Sign up</h1>
+
+			<label for="email">Email</label>
+			<input type="email" placeholder="foo@bar.com" name="email" id="email" required>
+
+			<label for="password">Password</label>
+			<input type="password" placeholder="1234passw0rd" name="password" id="password" required>
+
+			<button type="submit">Sign up</button>
+
+			<p><a href="/forgot_password/new">Forgot password?</a></p>
 		</form>
 	</main>
 	<footer>
