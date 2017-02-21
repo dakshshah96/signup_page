@@ -69,6 +69,7 @@ form.signup-form button {
 
 form.signup-form button:hover {
 	background: #0CB863;
+	cursor: pointer;
 }
 
 form.signup-form p {
@@ -89,6 +90,3 @@ footer p {
 footer p a {
 	color: white;
 }
-
-
-
